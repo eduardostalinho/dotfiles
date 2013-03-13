@@ -36,6 +36,7 @@ alias tether='sudo ip link set enp0s20u2 up && sudo dhcpcd enp0s20u2'
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+bindkey '^R' history-incremental-search-backward
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/qt4/bin
+export PATH=/home/eduardo/amazon/AutoScaling-1.0.61.0//bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/cuda/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/eduardo/bin:/home/eduardo/pkg/android-sdk-linux/platform-tools:/home/eduardo/pkg/android-sdk-linux/tools:/usr/share/lib/shflags/:/home/eduardo/.gem/ruby/1.9.1/bin:/usr/local/go/bin:/usr/lib/qt4/bin
