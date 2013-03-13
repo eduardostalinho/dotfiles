@@ -31,7 +31,7 @@ URxvt*foreground: green
 URxvt*geometry: 128x40
 URxvt*scrollBar: False
 URxvt*saveLines: 50000
-URxvt*font: xft:inconsolata-16
+URxvt*font: xft:inconsolata-12
 
 
 URxvt.perl-ext:      default,url-select
